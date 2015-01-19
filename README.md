@@ -15,7 +15,7 @@ mListView.setOnScrollListener( this );
 public void onScroll( AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount ) {
     int childCount = view.getChildCount();
     int listHeight = view.getHeight();
-    for ( int i = 0; i < childCount; i++ ) {
+    for ( int i = 0; i ＜ childCount; i++ ) {
         View child = view.getChildAt( i );
         Holder holder = (Holder) child.getTag();
         float top = child.getTop();
