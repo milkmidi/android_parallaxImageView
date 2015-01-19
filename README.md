@@ -8,6 +8,7 @@ Android Parallax Effect on ListView / ScrollView
 
 ## Code Example
 
+<h5>
 mListView = (ListView) this.findViewById( R.id.list_ivew );
 mListView.setOnScrollListener( this );
 @Override   //AbsListView.OnScrollListener
@@ -27,6 +28,7 @@ public void onScroll( AbsListView view, int firstVisibleItem, int visibleItemCou
         holder.image.setFraction( fraction );
     }
 }
+</h5>
 
 ## Installation
 
