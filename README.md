@@ -1,2 +1,2 @@
-# android_ParallexImageView
-android ParallexImageView
+
+android ParallaxImageView
