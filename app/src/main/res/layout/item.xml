@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+    <com.milkmidi.parallax.view.ParallaxFitImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:scale="0.8"
+        app:speed="0.8"/>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        tools:text="iPhone6"/>
+
+
+</RelativeLayout>
